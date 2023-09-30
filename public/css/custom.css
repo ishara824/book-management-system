@@ -1,0 +1,362 @@
+
+/*.login_div{*/
+/*    margin-top: 14%;*/
+/*}*/
+
+/*.form-group{*/
+/*    border-radius: 0;*/
+/*}*/
+
+/*.form-control{*/
+/*    border-radius: 0;*/
+/*}*/
+/*.btn{*/
+/*    border-radius: 0;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.navbar-dark .navbar-nav .nav-link{*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.navbar-brand{*/
+/*    font-weight: bold;*/
+/*}*/
+/*.card-header-colour{*/
+/*    background-color: #399619;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*    font-size: medium;*/
+/*}*/
+/*.card-body{*/
+
+/*}*/
+/*.bg-primary{*/
+/*    background-color: #563d7c !important;*/
+/*}*/
+/*.list-group-item a{*/
+/*    font-weight: lighter !important;*/
+/*}*/
+
+/*form label{*/
+/*    font-size: small;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.breadcrumb{*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.btn-primary{*/
+/*    background-color: #563d7c !important;*/
+/*}*/
+
+/*.btn{*/
+/*    font-weight: bold !important;*/
+/*}*/
+/*.error{*/
+/*    color: red;*/
+/*}*/
+/*.details{*/
+/*    font-size: medium;*/
+/*}*/
+/*.details label{*/
+/*    font-size: 12px;*/
+/*}*/
+/*.details label{*/
+/*    font-weight: bold;*/
+/*}*/
+/*.details .row{*/
+/*    padding: 0.5%;*/
+/*}*/
+/*.search-list{*/
+/*    position: absolute;margin-top: -1%;margin-left: 1%;padding: 5px;width: 100%; background-color: #fcfcfc; z-index: 9999;*/
+/*    font-size: small;*/
+/*}*/
+/*.search-list-item{*/
+/*    margin: 0; padding: 0px 0px 0px 0px*/
+/*}*/
+/*.search-list-table{*/
+/*    width: 580px;*/
+/*}*/
+/*.search {*/
+/*    list-style: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.search li {*/
+/*    margin-bottom: 10px;*/
+/*    padding-bottom: 5px;*/
+/*    border-bottom: 1px dotted #B3A9A9;*/
+/*}*/
+
+/*.search li.left .search-body {*/
+/*    margin-left: 60px;*/
+/*}*/
+
+/*.search li.right .search-body {*/
+/*    margin-right: 60px;*/
+/*}*/
+
+/*.search li .search-body p {*/
+/*    margin: 0;*/
+/*    color: #777777;*/
+/*}*/
+
+/*.item-active{*/
+/*    background-color: #ede1ff;*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.total_tbl td{*/
+/*    padding-top: 5px;*/
+/*    padding-bottom: 5px;*/
+/*}*/
+
+/*.with {*/
+/*    width: 20%;*/
+/*}*/
+
+/*.without {*/
+/*    width: 32%;*/
+/*}*/
+
+/*.error_border {*/
+/*    border: 1px solid red;*/
+/*}*/
+/*.full-window{*/
+/*    width: 1500px !important;*/
+/*}*/
+/*.full-window-invoice{*/
+/*    width: 1300px !important;*/
+/*}*/
+/*.report-link{*/
+/*    border-radius: 5px;*/
+/*}*/
+/*a{*/
+/*    text-decoration: none !important;*/
+/*}*/
+/*.dash{*/
+/*    margin-bottom: 3%;*/
+
+/*}*/
+
+/*.item-btn{*/
+/*    background-color: #b545ff;*/
+/*}*/
+
+/*.btn-primary{*/
+/*    background-color: #563d7c !important*/
+/*}*/
+
+/*.report li{*/
+
+/*}*/
+/*.report li a{*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*}*/
+/*@media only screen and (max-width: 600px) {*/
+/*    body{*/
+/*        font-size: x-small !important;*/
+/*    }*/
+/*    .main-content{*/
+/*        margin-bottom: 15% !important;*/
+/*        margin-top: 12% !important;*/
+/*    }*/
+/*}*/
+
+/*@media screen and ( max-width: 400px ){*/
+
+/*    li.page-item {*/
+
+/*        display: none;*/
+/*    }*/
+
+/*    .page-item:first-child,*/
+/*    .page-item:nth-child( 2 ),*/
+/*    .page-item:nth-last-child( 2 ),*/
+/*    .page-item:last-child,*/
+/*    .page-item.active,*/
+/*    .page-item.disabled {*/
+
+/*        display: block;*/
+/*    }*/
+/*}*/
+/*.small-text{*/
+/*    font-size: small !important;*/
+/*}*/
+/*@media only screen and (max-width: 600px) {*/
+/*    .small-tbl{*/
+/*        font-size: 8px;*/
+/*    }*/
+/*}*/
+
+/*.live-search{*/
+/*    position: absolute;background-color: #fcfcfc; z-index: 9999;min-width: 90%;*/
+/*    font-size: x-small !important;*/
+/*    font-weight: bold;*/
+/*}*/
+/*html {*/
+/*    overflow: scroll;*/
+/*    overflow-x: hidden;*/
+/*}*/
+/*::-webkit-scrollbar {*/
+/*    width: 0px;  !* Remove scrollbar space *!*/
+/*    background: transparent;  !* Optional: just make scrollbar invisible *!*/
+/*}*/
+/*!* Optional: show position indicator in red *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background: #FF0000;*/
+/*}*/
+/*.scrollme {*/
+/*    overflow-x: auto;*/
+/*}*/
+/*.search-link{*/
+/*    text-decoration: none !important;*/
+/*    color: black !important;*/
+/*}*/
+/*.list-group-item.active{*/
+/*    background-color: #c6e0f5;*/
+/*    font-weight: bold;*/
+/*}*/
+/*html{*/
+/*    font-size: small;*/
+/*}*/
+/*.h-100 {*/
+/*    height: 100%!important;*/
+/*}*/
+
+
+/*.login-logo a,*/
+/*.register-logo a {*/
+/*    color: #495057;*/
+/*}*/
+
+/*.login-page,*/
+/*.register-page {*/
+/*    -ms-flex-align: center;*/
+/*    align-items: center;*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -ms-flex-pack: center;*/
+/*    justify-content: center;*/
+/*    margin-top: 5%;*/
+/*}*/
+
+/*.login-logo,*/
+/*.register-logo {*/
+/*    font-size: 2.1rem;*/
+/*    font-weight: 500;*/
+/*    margin-bottom: .9rem;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.login-logo a,*/
+/*.register-logo a {*/
+/*    color: #495057;*/
+/*}*/
+/*.login-box,*/
+/*.register-box {*/
+/*    width: 360px;*/
+/*}*/
+
+/*@media (max-width: 576px) {*/
+/*    .login-box,*/
+/*    .register-box {*/
+/*        margin-top: 20px;*/
+/*        width: 90%;*/
+/*    }*/
+/*}*/
+
+/*.login-card-body,*/
+/*.register-card-body {*/
+/*    background: #ffffff;*/
+/*    border-top: 0;*/
+/*    color: #666;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.login-card-body .input-group .form-control,*/
+/*.register-card-body .input-group .form-control {*/
+/*    border-right: 0;*/
+/*}*/
+
+/*.login-card-body .input-group .form-control:focus,*/
+/*.register-card-body .input-group .form-control:focus {*/
+/*    box-shadow: none;*/
+/*}*/
+
+
+/*.login-card-body .input-group .form-control:focus ~ .input-group-append .input-group-text,*/
+/*.register-card-body .input-group .form-control:focus ~ .input-group-append .input-group-text {*/
+/*    border-color: #80bdff;*/
+/*}*/
+
+/*.login-card-body .input-group .form-control.is-valid:focus,*/
+/*.register-card-body .input-group .form-control.is-valid:focus {*/
+/*    box-shadow: none;*/
+/*}*/
+
+/*.login-card-body .input-group .form-control.is-valid ~ .input-group-append .input-group-text,*/
+/*.register-card-body .input-group .form-control.is-valid ~ .input-group-append .input-group-text {*/
+/*    border-color: #28a745;*/
+/*}*/
+
+/*.login-card-body .input-group .form-control.is-invalid:focus,*/
+/*.register-card-body .input-group .form-control.is-invalid:focus {*/
+/*    box-shadow: none;*/
+/*}*/
+
+/*.login-card-body .input-group .form-control.is-invalid ~ .input-group-append .input-group-text,*/
+/*.register-card-body .input-group .form-control.is-invalid ~ .input-group-append .input-group-text {*/
+/*    border-color: #dc3545;*/
+/*}*/
+
+/*.login-card-body .input-group .input-group-text,*/
+/*.register-card-body .input-group .input-group-text {*/
+/*    background-color: transparent;*/
+/*    border-bottom-right-radius: 0.25rem;*/
+/*    border-left: 0;*/
+/*    border-top-right-radius: 0.25rem;*/
+/*    color: #777;*/
+/*    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;*/
+/*}*/
+
+/*.login-box-msg,*/
+/*.register-box-msg {*/
+/*    margin: 0;*/
+/*    padding: 0 20px 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*@media only screen and (max-width: 600px) {*/
+/*    .summery{*/
+/*        font-size: 10px;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (min-width: 600px) {*/
+/*    .summery{*/
+/*        font-size: 12px;*/
+/*    }*/
+/*}*/
+
+/*body{*/
+
+/*}*/
+
+/*table thead tr th{*/
+/*    font-size: smaller;*/
+/*}*/
+/*table.rs-table-bordered{*/
+/*    border:1px solid #c00000;*/
+/*    margin-top:20px;*/
+/*}*/
+/*table.rs-table-bordered > thead > tr > th{*/
+/*    border:1px solid #c00000;*/
+/*}*/
+/*table.rs-table-bordered > tbody > tr > td{*/
+/*    border:1px solid #c00000;*/
+/*}*/
