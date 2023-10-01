@@ -17,6 +17,13 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
 
+    <style>
+        #background-image{
+            background-image: url('/images/background1.jpg');
+            height: 500px;
+        }
+    </style>
+
 </head>
 <body>
 <shortcut></shortcut>
