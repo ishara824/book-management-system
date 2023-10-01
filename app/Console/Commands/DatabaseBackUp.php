@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseBackUp extends Command
 {
@@ -28,13 +29,28 @@ class DatabaseBackUp extends Command
      */
     public function handle()
     {
-        $filename = "backup-" . Carbon::now()->format('Y-m-d') . ".gz";
 
-        $command = "mysqldump --user=" . env('DB_USERNAME') ." --password=" . env('DB_PASSWORD') . " --host=" . env('DB_HOST') . " " . env('DB_DATABASE') . "  | gzip > " . storage_path() . "/app/backup/" . $filename;
+        $sourceConnection = 'mysql';
+        $destinationConnection = 'backup_connection';
 
-        $returnVar = NULL;
-        $output  = NULL;
+        $sourceDatabase = env('DB_DATABASE');
+        $destinationDatabase = env('BACKUP_DB_DATABASE');
 
-        exec($command, $output, $returnVar);
+        $sourceDBUser = env('DB_USERNAME');
+        $destinationDBUSER = env('BACKUP_DB_USERNAME');
+
+        $storagePath = storage_path('app/backup/');
+        if (!file_exists($storagePath)) {
+            mkdir($storagePath, 0755, true);
+        }
+
+        $backupFilename = $storagePath . "backup-" . Carbon::now()->format('Y-m-d') . ".sql";
+        exec("mysqldump -u $sourceDBUser -p $sourceDatabase > $backupFilename");
+
+        $sourceDatabase = DB::connection($sourceConnection)->getDatabaseName();
+        $destinationDatabase = DB::connection($destinationConnection)->getDatabaseName();
+        exec("mysql -u $destinationDBUSER -p $destinationDatabase < $backupFilename");
+
+        $this->info("Database '$sourceDatabase' has been backed up and copied to '$destinationDatabase'");
     }
 }
